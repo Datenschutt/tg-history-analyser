@@ -9,7 +9,7 @@ In here you find 3 python scripts.
 3.filter.py
 
 1.json_to_csv:This script requires a json-file, that is called 'result.json'. 
-In our analysis of telegram data, we have always used the 'export chat history'-option in the telegram UI (desktop version). If you get the the "result.json"-file 
+In our analysis of telegram data, we have always used the 'export chat history'-option in the telegram UI (desktop version). If you get the the 'result.json'-file 
 the same way we did, everything should work. The output file is called 'chat_history.csv'
 
 2.json_to_html.py: First you have to put in the file name, of the json-file you want to convert. It should be in the same directory from which you execute this python-script. After that you enter the desired name for the output file and the number of messages per html. We recommend  to test out how many messages per html-file work in your browser. Something between 5000-10000 should work. 
